@@ -11,7 +11,7 @@ For this project, you will need:
 * Download/Clone this repository.
 * Install Vagrant and VirtualBox.
 * Launch VagrantVM with ```vagrant up``` and log in with ```vagrant SSH```
-* Load the data with '''psql -d news -f newsdata.sql''' to connect to database.
+* Load the data with ```psql -d news -f newsdata.sql``` to connect to database.
 * Run ```python3 newsdata.py``` to execute the program.
 ## Acknowledgments 
 * Udacity Course
