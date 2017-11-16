@@ -2,7 +2,7 @@
 
 import psycopg2
 
-# Define queries. Define title, then query data.
+# Define query title and data.
 
 query_1_title = ("What are the most popular three articles of all time?")
 
@@ -42,7 +42,7 @@ def connect(database_name="news"):
     except:
         print ("Database connection failed, danger will robinson!")
 
-    # Return the results of queries.
+    # Return query results.
 
 
 def get_query_results(query):
@@ -62,7 +62,7 @@ def print_query_results(query_results):
             "\t", index+1, "-", results[0],
             "\t - ", str(results[1]), "views")
 
-    # Print errors, if any arise.
+    # Print errors.
 
 
 def print_error_results(query_results):
